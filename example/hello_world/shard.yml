@@ -1,0 +1,17 @@
+name: Example_1
+version: 0.0.1
+description: Hello World example
+authors:
+  - Jaydon 'XDR' Nelson <xxdr@duck.com>
+license: MIT
+crystal: '>= 1.13.0'
+
+dependencies:
+  crowsa:
+    path: ../..
+  blueprint:
+    github: stephannv/blueprint
+
+targets:
+  example_1:
+    main: src/main.cr
