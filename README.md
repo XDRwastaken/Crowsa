@@ -22,6 +22,6 @@ Add this to your application's `shard.yml`:
 
 ```yml
 dependencies:
-discordrpcry:
-git: https://codeberg.org/XDR/Crowsa
+  discordrpcry:
+    git: https://codeberg.org/XDR/Crowsa
 ```
